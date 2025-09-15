@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import Sub1 from "../pages/Sub1";
 import Sub2 from "../pages/Sub2";
@@ -9,7 +9,7 @@ import Counter from "../components/Counter";
 // 라우터 정의
 const Router = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Layout>
       <Routes>
 				{/* 
@@ -25,7 +25,7 @@ const Router = () => {
         <Route path="Counter" element={<Counter />} />
       </Routes>
     </Layout>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 export default Router;
