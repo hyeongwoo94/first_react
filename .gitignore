@@ -1,0 +1,10 @@
+# Node.js / React 프로젝트
+node_modules/       # 의존성 폴더
+dist/               # 빌드 폴더
+build/              # 빌드 폴더
+.env                # 환경변수
+.DS_Store           # macOS 숨김 파일
+
+# IDE 관련
+.vscode/
+*.log
